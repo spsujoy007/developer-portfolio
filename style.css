@@ -80,11 +80,11 @@ h2 {
 
 .boxes {
     box-shadow: 5px 5px 20px 2px rgba(44, 43, 43, 0.26);
-    border-radius: 7px;
-    margin-right: 2%;
+    border-radius: 5px;
+    margin-right: 1%;
     margin-left: 5%;
     padding: 25px;
-    border-left: 3px solid linear-gradient(black, yellow);
+    border-left: 6px solid #FF6347;
 }
 
 .boxes p {
@@ -93,4 +93,5 @@ h2 {
 
 .box2 {
     margin-left: 0;
+    border-left: 6px solid #0000FF;
 }
