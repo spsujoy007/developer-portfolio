@@ -95,3 +95,10 @@ h2 {
     margin-left: 0;
     border-left: 6px solid #0000FF;
 }
+
+footer {
+    text-align: center;
+    background-color: #FB6354;
+    padding: 1px;
+    color: white;
+}
