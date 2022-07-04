@@ -12,7 +12,12 @@ h1 {
     color: orange;
 }
 
-section {
+.firstSec {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.holeimg {
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -20,7 +25,7 @@ section {
 
 .half-width {
     width: 100%;
-    padding-left: 5%;
+    padding-left: 10%;
 }
 
 .half-width p {
@@ -30,7 +35,7 @@ section {
 }
 
 .half-width img {
-    width: 80%;
+    width: 90%;
     margin-top: 10%;
 }
 
@@ -43,9 +48,17 @@ section {
     float: left;
     border-radius: 3px;
     font-weight: bolder;
-
 }
 
 .mybtn:hover {
     background: linear-gradient(45deg, #FB6354, #F78868ed);
+
+}
+
+.dream-big {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
