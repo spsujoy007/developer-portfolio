@@ -8,13 +8,18 @@ h1 {
     font-size: 50px;
 }
 
-.nameOfworld {
+h2 {
+    font-size: 40px;
+}
+
+.orange {
     color: orange;
 }
 
-.firstSec {
+.flexible-section {
     display: flex;
     margin-bottom: 150px;
+
 }
 
 .holeimg {
@@ -29,7 +34,7 @@ h1 {
 }
 
 .half-width p {
-    color: gray;
+    color: rgb(71, 70, 70);
     width: 75%;
     text-align: justify;
 }
@@ -61,4 +66,31 @@ h1 {
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.widthsec {
+    padding: 0;
+}
+
+.Experience-aria {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.boxes {
+    box-shadow: 5px 5px 20px 2px rgba(44, 43, 43, 0.26);
+    border-radius: 7px;
+    margin-right: 2%;
+    margin-left: 5%;
+    padding: 25px;
+    border-left: 3px solid linear-gradient(black, yellow);
+}
+
+.boxes p {
+    font-size: 18px;
+}
+
+.box2 {
+    margin-left: 0;
 }
