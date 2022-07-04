@@ -4,40 +4,34 @@ body {
     padding: 0;
 }
 
-#firstPage {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
-
 h1 {
     font-size: 50px;
 }
 
-.headofall {
-    width: 100%;
-    justify-content: center;
-    display: flex;
-}
-
-.orangehead {
+.nameOfworld {
     color: orange;
 }
 
-.division {
-    float: left;
-    width: 52%;
+section {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
-.division .bio {
-    width: 70%;
+.half-width {
+    width: 100%;
+    padding-left: 5%;
+}
+
+.half-width p {
     color: gray;
+    width: 75%;
+    text-align: justify;
 }
 
-img {
-    float: right;
-    width: 35%;
-    height: 35%;
-    margin-top: 3%;
+.half-width img {
+    width: 80%;
+    margin-top: 10%;
 }
 
 .mybtn {
