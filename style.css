@@ -21,16 +21,31 @@ h1 {
 .division {
     float: left;
     width: 52%;
-    margin
 }
 
 .division .bio {
-    width: 60%;
+    width: 70%;
+    color: gray;
 }
 
 img {
     float: right;
     width: 35%;
     height: 35%;
+    margin-top: 3%;
+}
 
+.mybtn {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(45deg, #F78868ed, #FB6354);
+    padding: 9px 32px 9px;
+    margin-top: 10px;
+    float: left;
+    border-radius: 3px;
+
+}
+
+.mybtn:hover {
+    background: linear-gradient(45deg, #FB6354, #F78868ed);
 }
